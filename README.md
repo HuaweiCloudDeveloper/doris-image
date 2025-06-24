@@ -13,4 +13,4 @@
 
 - 华为云云商店：[doris-2.1.10-鲲鹏-v1.0](./docs/usage.md)
 
-更多问题可通过 [**issue**](https://github.com/HuaweiCloudDeveloper/trino-image/issues) 或 **华为云云商店指定商品的服务支持** 与我们取得联系。
+更多问题可通过 [**issue**](https://github.com/HuaweiCloudDeveloper/doris-image/issues) 或 **华为云云商店指定商品的服务支持** 与我们取得联系。
