@@ -1,50 +1,16 @@
-<p align="center">
-  <h1 align="center">Doris Database</h1>
-  <p align="center">
-    <strong>English</strong> | <a href="README_ZH.md">简体中文</a>
-  </p>
+# doris-2.1.10-鲲鹏-v1.0
 
-## Table of Contents
+## 规格说明
 
-- [Repository Introduction](#project-introduction)
-- [Prerequisites](#prerequisites)
-- [Image Description](#image-description)
-- [Getting Help](#getting-help)
-- [How to Contribute](#how-to-contribute)
+- 镜像商品：[doris数据库]()
+- 镜像规格：doris-2.1.10-鲲鹏-v1.0
+- 适配项：[ECS](https://support.huaweicloud.com/ecs/index.html)
+- CPU架构：ARM
+- 操作系统：Huawei Cloud EulerOS 2.0 64bit
+- 资源编排服务（RFS）：ECS + EIP + VPC
 
-## Project Introduction
-[Apache Doris](https://github.com/apache/doris) is a high-performance, real-time analytical database based on the MPP architecture. It is well-known for its efficiency, simplicity, and unity. It can return query results for massive data in sub-second response times. It can support both high-concurrency point query scenarios and high-throughput complex analysis scenarios. Based on this, Apache Doris can well meet usage scenarios such as report analysis, ad-hoc query, unified data warehouse construction, and data lakehouse integration. Users can build applications such as large-screen dashboards, user behavior analysis, AB testing platforms, log retrieval analysis, user portrait analysis, and order analysis on top of it.
+## 使用说明
 
-**Use cases of Apache Doris:**
-- Report analysis
-    - Real-time dashboards;
-    - Reports for internal enterprise analysts and managers;
-    - High-concurrency report analysis for users or customers (Customer Facing Analytics). For example, site analysis for website owners and advertising reports for advertisers. Usually, concurrency requires tens of thousands of QPS, and query latency requires millisecond-level response. The well-known e-commerce company JD.com uses Apache Doris in its advertising reports, writing 10 billion rows of data per day, with a query concurrency QPS of over ten thousand and a 99th percentile query latency of 150ms.
-- Ad-hoc Query: Self-service analysis for analysts with non-fixed query patterns, requiring high throughput. Xiaomi built a Growth Analytics (GA) platform based on Apache Doris, using user behavior data for business growth analysis. The average query latency is 10s, the 95th percentile query latency is within 30s, and the daily SQL query volume is tens of thousands.
-- Data Lakehouse: Federated analysis of data in offline lakehouses such as Hive, Iceberg, and Hudi through external tables, significantly improving query performance without data copying.
-- Log retrieval analysis: In the Apache Doris 2.0 version, inverted indexes and full-text retrieval are supported, which can well meet the log retrieval analysis scenario. Relying on its efficient query engine and storage engine, it has a 10-fold cost-performance advantage compared to traditional log retrieval analysis solutions.
-- Unified data warehouse construction: One platform meets the unified data warehouse construction needs, simplifying the cumbersome big data software stack. Haidilao built a unified data warehouse based on Apache Doris, replacing the old architecture composed of Spark, Hive, Kudu, Hbase, and Phoenix, greatly simplifying the architecture.
+- 华为云云商店：[doris-2.1.10-鲲鹏-v1.0](./docs/usage.md)
 
-This project provides an open-source mirror product [**Doris Database**](), which has Doris and its related operating environments pre-installed and provides deployment templates. Come and refer to the usage guide to easily start the "out-of-the-box" efficient experience!
-
-> **System requirements are as follows:**
-> - CPU: 2GHz or higher
-> - RAM: 8GB or larger
-> - Disk: At least 40GB
-
-## Prerequisites
-[Register a Huawei account and activate Huawei Cloud](https://support.huaweicloud.com/usermanual-account/account_id_001.html)
-
-## Image Description
-
-| Image Specification           | Feature Description                                           | Remarks |
-|-------------------------------|------------------------------------------------| --- |
-| [doris-2.1.10-Kunpeng-v1.0]() | Installed and deployed based on Kunpeng servers + Huawei Cloud EulerOS 2.0 64-bit |  |
-
-## Getting Help
-- For more questions, you can contact us through [issues](https://github.com/HuaweiCloudDeveloper/doris-image/issues) or the service support of the specified product on the Huawei Cloud Marketplace.
-- For other open-source images, see [open-source-image-repos](https://github.com/HuaweiCloudDeveloper/open-source-image-repos)
-
-## How to Contribute
-- Fork this repository and submit a merge request.
-- Synchronously update README.md based on your open-source image information.
+更多问题可通过 [**issue**](https://github.com/HuaweiCloudDeveloper/trino-image/issues) 或 **华为云云商店指定商品的服务支持** 与我们取得联系。
