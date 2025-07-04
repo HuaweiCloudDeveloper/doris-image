@@ -2,7 +2,7 @@
 
 # 一、商品链接
 
-[doris数据库]()
+[doris数据库](https://marketplace.huaweicloud.com/contents/86d1400a-7c36-4fd2-9f6b-3bff59d3ca72#productid=OFFI1146359492281585664)
 
 # 二、商品说明
 
