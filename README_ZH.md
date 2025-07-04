@@ -33,7 +33,7 @@
 - 统一数仓构建：一个平台满足统一的数据仓库建设需求，简化繁琐的大数据软件栈。海底捞基于 Apache Doris 构建的统一数仓，替换了原来由 Spark、Hive、Kudu、Hbase、Phoenix 组成的旧架构，架构大大简化。
 
 
-本项目提供的开源镜像商品 [**Doris数据库**]()，已预先安装 Doris 及其相关运行环境，并提供部署模板。快来参照使用指南，轻松开启“开箱即用”的高效体验吧。
+本项目提供的开源镜像商品 [**Doris数据库**](https://marketplace.huaweicloud.com/contents/86d1400a-7c36-4fd2-9f6b-3bff59d3ca72#productid=OFFI1146359492281585664)，已预先安装 Doris 及其相关运行环境，并提供部署模板。快来参照使用指南，轻松开启“开箱即用”的高效体验吧。
 
 > **系统要求如下：**
 > - CPU: 2GHz 或更高
@@ -47,7 +47,7 @@
 
 | 镜像规格                     | 特性说明                                           | 备注 |
 |--------------------------|------------------------------------------------| --- |
-| [doris-2.1.10-鲲鹏-v1.0]() | 基于 鲲鹏服务器 + Huawei Cloud EulerOS 2.0 64bit 安装部署 |  |
+| [doris-2.1.10-kunpeng](https://github.com/HuaweiCloudDeveloper/doris-image/tree/doris-2.1.10-kunpeng) | 基于 鲲鹏服务器 + Huawei Cloud EulerOS 2.0 64bit 安装部署 |  |
 
 ## 获取帮助
 - 更多问题可通过 [issue](https://github.com/HuaweiCloudDeveloper/doris-image/issues) 或 华为云云商店指定商品的服务支持 与我们取得联系
