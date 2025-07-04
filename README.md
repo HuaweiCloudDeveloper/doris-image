@@ -25,7 +25,7 @@
 - Log retrieval analysis: In the Apache Doris 2.0 version, inverted indexes and full-text retrieval are supported, which can well meet the log retrieval analysis scenario. Relying on its efficient query engine and storage engine, it has a 10-fold cost-performance advantage compared to traditional log retrieval analysis solutions.
 - Unified data warehouse construction: One platform meets the unified data warehouse construction needs, simplifying the cumbersome big data software stack. Haidilao built a unified data warehouse based on Apache Doris, replacing the old architecture composed of Spark, Hive, Kudu, Hbase, and Phoenix, greatly simplifying the architecture.
 
-This project provides an open-source mirror product [**Doris Database**](), which has Doris and its related operating environments pre-installed and provides deployment templates. Come and refer to the usage guide to easily start the "out-of-the-box" efficient experience!
+This project provides an open-source mirror product [**Doris Database**](https://marketplace.huaweicloud.com/intl/hidden/contents/642304b4-117e-4c88-b79f-933a7d861599), which has Doris and its related operating environments pre-installed and provides deployment templates. Come and refer to the usage guide to easily start the "out-of-the-box" efficient experience!
 
 > **System requirements are as follows:**
 > - CPU: 2GHz or higher
@@ -39,7 +39,7 @@ This project provides an open-source mirror product [**Doris Database**](), whic
 
 | Image Specification           | Feature Description                                           | Remarks |
 |-------------------------------|------------------------------------------------| --- |
-| [doris-2.1.10-Kunpeng-v1.0]() | Installed and deployed based on Kunpeng servers + Huawei Cloud EulerOS 2.0 64-bit |  |
+| [doris-2.1.10-kunpeng](https://github.com/HuaweiCloudDeveloper/doris-image/tree/doris-2.1.10-kunpeng) | Installed and deployed based on Kunpeng servers + Huawei Cloud EulerOS 2.0 64-bit |  |
 
 ## Getting Help
 - For more questions, you can contact us through [issues](https://github.com/HuaweiCloudDeveloper/doris-image/issues) or the service support of the specified product on the Huawei Cloud Marketplace.
